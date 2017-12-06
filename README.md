@@ -1,2 +1,2 @@
 # Reform Responsibly
-## Honor Code Referendum Opposition Party Website
+This is the Honor Code Referendum Opposition Party website.
