@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Raleway:400,900');
 
 /*
 	Ion by TEMPLATED
@@ -16,14 +17,15 @@
 
 	body, input, select, textarea {
 		color: #555f66;
-		font-family: "Roboto", Helvetica, sans-serif;
+		/*font-family: "Roboto", Helvetica, sans-serif;*/
+		font-family: 'Raleway', sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
 	}
 
 	a {
-		color: #629DD1;
+		color: #ff9428;
 		text-decoration: underline;
 	}
 
@@ -243,8 +245,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #629DD1;
-			box-shadow: 0 0 0 1px #629DD1;
+			border-color: #ff9428;
+			box-shadow: 0 0 0 1px #ff9428;
 		}
 
 	.select-wrapper {
@@ -355,8 +357,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #629DD1;
-			box-shadow: 0 0 0 1px #629DD1;
+			border-color: #ff9428;
+			box-shadow: 0 0 0 1px #ff9428;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -438,7 +440,7 @@
 			display: inline-block;
 			margin: 0 0 1.25em 0;
 			color: #ffffff;
-			background: #629DD1;
+			background: #ff9428;
 			width: 3em;
 			height: 3em;
 			font-size: 2em;
@@ -802,7 +804,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #629DD1;
+			background-color: #ff9428;
 			color: #ffffff !important;
 		}
 
@@ -945,7 +947,7 @@
 					}
 
 						#header nav > ul > li a:hover {
-							color: #629DD1;
+							color: #ff9428;
 						}
 
 					#header nav > ul > li:first-child {
@@ -978,7 +980,7 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/gate.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1001,6 +1003,8 @@
 		#banner .inner {
 			position: relative;
 			z-index: 1;
+			padding: 5;
+			/*font-family: "Libre Baskerville";*/
 		}
 
 			#banner .inner :last-child {
@@ -1011,9 +1015,16 @@
 			color: #ffffff;
 		}
 
+		#banner h2 {
+			display: inline-block;
+			background-color: rgba(1, 1, 4, 0.4);
+			/*rgba(255, 148, 40, 0.5);*/
+		}
+
 		#banner .button.alt {
 			box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
 			color: #ffffff !important;
+			background-color: rgba(1, 1, 4, 0.275);
 		}
 
 			#banner .button.alt:hover {
@@ -1085,3 +1096,11 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Title */
+#title {
+
+}
+	#title span {
+		color: #ff9428;
+	}
